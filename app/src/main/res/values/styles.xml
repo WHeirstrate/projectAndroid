@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="custom_title">
+        <item name="android:layout_marginTop">@dimen/margin_large</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/font_regular</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="custom_input">
+        <item name="android:layout_marginTop">@dimen/margin_small</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/font_small</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="custom_inputEdit">
+        <item name="android:layout_marginTop">@dimen/margin_small</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/font_small</item>
+        <item name="android:layout_width">220dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+
+    </style>
+</resources>

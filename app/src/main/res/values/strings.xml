@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Addressbook</string>
+    <string name="mainUserName" translatable="false">Wouter Heirstrate</string>
+    <string name="mainUserAddress" translatable="false">Hertog Janlaan 62, bus 36, 1083 Ganshoren</string>
+    <string name="imageDescription">Profile picture</string>
+    <string name="userName" translatable="false">Patrick Peeters</string>
+    <string name="userFullName" translatable="false">%1$s %2$s</string>
+    <string name="input_placeholder" translatable="false" />
+    <string name="firstName">First name</string>
+    <string name="lastName">Last name</string>
+    <string name="street">Street</string>
+    <string name="houseNumber">Housenumber</string>
+    <string name="city">City</string>
+    <string name="postal">Postal code</string>
+    <string name="detailTitle" translatable="false">Details</string>
+    <string name="click_to_edit">Click to edit</string>
+    <string name="edit">Edit</string>
+    <string name="succesEdit">User had been succesfully updated</string>
+    <string name="failureEdit">Oops, something went wrong. Try again</string>
+    <string name="succesAdd">User has been succesfully created</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="imageDescription">Profielfoto</string>
+    <string name="firstName">Voornaam</string>
+    <string name="lastName">Achternaam</string>
+    <string name="street">Straat</string>
+    <string name="houseNumber">Huisnummer</string>
+    <string name="city">Gemeente</string>
+    <string name="postal">Postcode</string>
+    <string name="app_name">Adresboek</string>
+    <string name="edit">Bewerken</string>
+    <string name="click_to_edit">Klik om te bewerken</string>
+    <string name="succesEdit">Gebruiker is succesvol bijgewerkt</string>
+    <string name="failureEdit">Oeps, er is iets misgegaan. Probeer opnieuw</string>
+    <string name="succesAdd">Gebruiker is succesvol toegevoegd</string>
+</resources>

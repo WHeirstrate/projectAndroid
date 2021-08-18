@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/editUserFirstName_title"
+        style="@style/custom_title"
+        android:text="@string/firstName" />
+
+
+    <EditText
+        android:id="@+id/editUserFirstName"
+        style="@style/custom_inputEdit"
+        android:autofillHints="@string/firstName"
+        android:hint="@string/firstName"
+        android:inputType="text"
+        android:text="@string/input_placeholder"/>
+
+    <TextView
+        android:id="@+id/editUserLastName_title"
+        style="@style/custom_title"
+        android:text="@string/lastName"/>
+
+    <EditText
+        android:id="@+id/editUserLastName"
+        style="@style/custom_inputEdit"
+        android:autofillHints="@string/lastName"
+        android:hint="@string/lastName"
+        android:inputType="text"
+        android:text="@string/input_placeholder"/>
+
+    <TextView
+        android:id="@+id/editUserStreet_title"
+        style="@style/custom_title"
+        android:text="@string/street"/>
+
+    <EditText
+        android:id="@+id/editUserStreet"
+        style="@style/custom_inputEdit"
+        android:autofillHints="@string/street"
+        android:hint="@string/street"
+        android:inputType="text"
+        android:text="@string/input_placeholder"/>
+
+
+    <TextView
+        android:id="@+id/editUserStreetNr_title"
+        style="@style/custom_title"
+        android:text="@string/houseNumber"/>
+
+    <EditText
+        android:id="@+id/editUserStreetNr"
+        style="@style/custom_inputEdit"
+        android:autofillHints="@string/street"
+        android:hint="@string/street"
+        android:inputType="number"
+        android:text="@string/input_placeholder"/>
+
+    <TextView
+        android:id="@+id/editUserCity_title"
+        style="@style/custom_title"
+        android:text="@string/city" />
+
+    <EditText
+        android:id="@+id/editUserCity"
+        style="@style/custom_inputEdit"
+        android:autofillHints="@string/city"
+        android:hint="@string/city"
+        android:inputType="text"
+        android:text="@string/input_placeholder"/>
+
+    <TextView
+        android:id="@+id/editUserPostal_title"
+        style="@style/custom_title"
+        android:text="@string/postal"/>
+
+    <EditText
+        android:id="@+id/editUserPostal"
+        style="@style/custom_inputEdit"
+        android:autofillHints="@string/postal"
+        android:hint="@string/postal"
+        android:inputType="number"
+        android:text="@string/input_placeholder" />
+
+    <Button
+        android:id="@+id/saveUserButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_large"
+        android:text="@string/click_to_edit"
+        android:textColor="@color/white"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

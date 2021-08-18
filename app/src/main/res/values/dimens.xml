@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_small">10sp</dimen>
+    <dimen name="margin_medium">16sp</dimen>
+    <dimen name="margin_large">20sp</dimen>
+    <dimen name="font_title">24sp</dimen>
+    <dimen name="font_regular">18sp</dimen>
+    <dimen name="font_small">16sp</dimen>
+</resources>
